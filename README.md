@@ -1,2 +1,2 @@
 # Inforvisgolf
-Visualización de Información - Gold
+Visualización de Información - Golf
