@@ -72,7 +72,7 @@
       </div>
     </div>
 
-    <!-- Graph 2: Price vs Shots & Revisit (Ingress istället för dubbel rubrik) -->
+    <!-- Graph 2: Price vs Shots & Revisit -->
     <div class="card">
       <p class="card-lead">
         Now that we've established the performance across different courses, let's examine whether there is a correlation between green fees, score outcomes, and overall willingness to revisit.
@@ -85,58 +85,68 @@
       </div>
     </div>
 
+    <!-- Graph 3: Hole Performance Evolution (RAWGraphs SVG) -->
     <div class="card">
-  <h2 class="card-title">Hole Performance Evolution (2018–2026)</h2>
-  <object type="image/svg+xml" data="./golf_streamgraph.svg" style="width: 100%; height: auto;"></object>
-</div>
+      <h2 class="card-title">Hole Performance Evolution (2018–2026)</h2>
+      <p class="card-lead">
+        Individual rounds only tell part of the story; looking at the long-term progression reveals how high scores have gradually shifted into steady pars and birdies as my handicap dropped from 54 to 8.
+      </p>
+      <object type="image/svg+xml" data="./golf_streamgraph.svg" style="width: 100%; height: auto;"></object>
+    </div>
 
+    <!-- Graph 4: Geographic Distribution (Datawrapper) -->
     <div class="card">
-  <h2 class="card-title">Geographic Distribution of Played Golf Courses</h2>
-  <div style="min-height:367px" id="datawrapper-vis-OF516">
-    <script type="text/javascript" defer src="https://datawrapper.dwcdn.net/OF516/embed.js" charset="utf-8" data-target="#datawrapper-vis-OF516"></script>
-    <noscript>
-      <img src="https://datawrapper.dwcdn.net/OF516/full.png" alt="Courses played across all countries (Choropleth map)" />
-    </noscript>
-  </div>
-</div>
+      <h2 class="card-title">Geographic Distribution of Played Golf Courses</h2>
+      <p class="card-lead">
+        Golf has also been an essential companion across travels, spanning 11 different countries with Sweden as the primary home base alongside multiple international destinations.
+      </p>
+      <div style="min-height:367px" id="datawrapper-vis-OF516">
+        <script type="text/javascript" defer src="https://datawrapper.dwcdn.net/OF516/embed.js" charset="utf-8" data-target="#datawrapper-vis-OF516"></script>
+        <noscript>
+          <img src="https://datawrapper.dwcdn.net/OF516/full.png" alt="Courses played across all countries (Choropleth map)" />
+        </noscript>
+      </div>
+    </div>
 
-    <!-- Visualization 5: Weekly Playing Patterns (Tableau Heatmap) -->
-<div class="card">
-  <h2 class="card-title">Weekly Playing Patterns & Time Distribution</h2>
-  <p class="card-lead">Analysis of playing frequency across weekdays, daytime school constraints, and morning rounds.</p>
-  
-  <div class='tableauPlaceholder' id='viz1791155777819' style='position: relative'>
-    <noscript>
-      <a href='#'>
-        <img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;We&#47;WeeklyPlayingPatternsTimeDistribution&#47;Blad1&#47;1_rss.png' style='border: none' />
-      </a>
-    </noscript>
-    <object class='tableauViz' style='display:none;'>
-      <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-      <param name='embed_code_version' value='3' />
-      <param name='site_root' value='' />
-      <param name='name' value='WeeklyPlayingPatternsTimeDistribution&#47;Blad1' />
-      <param name='tabs' value='no' />
-      <param name='toolbar' value='yes' />
-      <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;We&#47;WeeklyPlayingPatternsTimeDistribution&#47;Blad1&#47;1.png' />
-      <param name='animate_transition' value='yes' />
-      <param name='display_static_image' value='yes' />
-      <param name='display_spinner' value='yes' />
-      <param name='display_overlay' value='yes' />
-      <param name='display_count' value='yes' />
-      <param name='language' value='sv-SE' />
-    </object>
-  </div>
-  <script type='text/javascript'>
-    var divElement = document.getElementById('viz1791155777819');
-    var vizElement = divElement.getElementsByTagName('object')[0];
-    vizElement.style.width='100%';
-    vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
-    var scriptElement = document.createElement('script');
-    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-    vizElement.parentNode.insertBefore(scriptElement, vizElement);
-  </script>
-</div>
+    <!-- Graph 5: Activity Heatmap (Tableau Heatmap) -->
+    <div class="card">
+      <h2 class="card-title">When Do I Play? Weekly Activity & Routine</h2>
+      <p class="card-lead">
+        Balancing academic commitments with golf naturally shapes the weekly calendar, channeling most rounds into early mornings and late afternoons rather than peak weekend hours.
+      </p>
+      
+      <div class='tableauPlaceholder' id='viz1791155777819' style='position: relative'>
+        <noscript>
+          <a href='#'>
+            <img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;We&#47;WeeklyPlayingPatternsTimeDistribution&#47;Blad1&#47;1_rss.png' style='border: none' />
+          </a>
+        </noscript>
+        <object class='tableauViz' style='display:none;'>
+          <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+          <param name='embed_code_version' value='3' />
+          <param name='site_root' value='' />
+          <param name='name' value='WeeklyPlayingPatternsTimeDistribution&#47;Blad1' />
+          <param name='tabs' value='no' />
+          <param name='toolbar' value='yes' />
+          <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;We&#47;WeeklyPlayingPatternsTimeDistribution&#47;Blad1&#47;1.png' />
+          <param name='animate_transition' value='yes' />
+          <param name='display_static_image' value='yes' />
+          <param name='display_spinner' value='yes' />
+          <param name='display_overlay' value='yes' />
+          <param name='display_count' value='yes' />
+          <param name='language' value='sv-SE' />
+        </object>
+      </div>
+      <script type='text/javascript'>
+        var divElement = document.getElementById('viz1791155777819');
+        var vizElement = divElement.getElementsByTagName('object')[0];
+        vizElement.style.width='100%';
+        vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+        var scriptElement = document.createElement('script');
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+      </script>
+    </div>
     
   </main>
 
